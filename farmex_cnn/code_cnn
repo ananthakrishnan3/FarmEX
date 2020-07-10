@@ -37,7 +37,6 @@ target_labels = np.array(['Apple Braeburn', 'Apple Crimson Snow', 'Apple Golden 
        'Apple Red Delicious', 'Apple Red Yellow 1', 'Apple Red Yellow 2',
        'Banana', 'Banana Lady Finger', 'Banana Red'], dtype='<U19')
 
-# We just have the file names in the x set. Let's load the images and convert them into array.
 from keras.preprocessing.image import array_to_img, img_to_array, load_img
 
 def convert_image_to_array(files):
